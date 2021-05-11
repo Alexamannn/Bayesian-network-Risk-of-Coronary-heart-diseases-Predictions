@@ -8,9 +8,9 @@ library(RBGL)
 library(gRain)
 library(igraph)
 library(bnlearn)
-library(RCurl)
 
-x <- getURL("https://raw.githubusercontent.com/Alexamannn/Bayesian-network-Risk-of-Coronary-heart-diseases-Predictions/main/CHD%20dataset.csv")
+
+x <-"https://raw.githubusercontent.com/Alexamannn/Bayesian-network-Risk-of-Coronary-heart-diseases-Predictions/main/CHD%20dataset.csv"
 df <- read.table(x, sep = ",")
 colnames(df) <- as.character(unlist(df[1,]))
 df = df[-1, ]
