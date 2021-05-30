@@ -1,8 +1,4 @@
-# Bayesian Networks
-
-## for
-
-## Prognosis Modelling to predict Health Diseases
+# Bayesian Networks for Prognosis Modelling to predict Health Diseases
 
 
 ## Prognosis Modelling with Bayesian Networks
