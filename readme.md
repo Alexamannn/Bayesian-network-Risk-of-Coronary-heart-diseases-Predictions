@@ -116,41 +116,8 @@ is randomly partitioned into k subsets. Each subset is used in turn to validate 
 model fitted on the remaining k - 1 subsets.
 
 
-## Cross validation on the network to make sure the loss
-
-## function is as low as possible
+## Cross validation on the network to make sure the loss  function is as low as possible
 
 
 
-## Conditional probability queries
-
-```
-Evidence=Do not Smoke
-```
-```
-Evidence= Smoke > 20"
-```
-```
-evidence = "Do not Smoke" & "Heart
-Rate 70-80"
-Smoke > 20" & "Heart Rate
-70-80"
-Smoke > 20 Heart Rate 90+
-```
-```
-Do not Smoke"
-"Female"
-```
-```
-Do not Smoke
-Male
-```
-```
-Cholesterol =5 &
-diabetes = "Yes
-```
-```
-Cholestrol= 1 &
-diabetes = "No"
-```
-
+## Conditional probability queries 
